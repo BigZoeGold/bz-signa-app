@@ -28,7 +28,7 @@
           "color": "#c8972a",
           "sounds": []
         }
-      ],
+      ]
       "expo-background-fetch",
       "expo-task-manager"
     ],
