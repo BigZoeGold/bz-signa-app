@@ -21,19 +21,19 @@
       ]
     },
     "plugins": [
-  [
-    "expo-notifications",
-    {
-      "icon": "./assets/icon.png",
-      "color": "#c8972a",
-      "sounds": []
-    }
-  ],
-  "expo-background-fetch",
-  "expo-task-manager"
-],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#c8972a",
+          "sounds": []
+        }
+      ],
+      "expo-background-fetch",
+      "expo-task-manager"
+    ],
     "extra": {
-      "eas": {
+      "eas": {}
     }
   }
 }
