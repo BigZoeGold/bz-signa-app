@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "BigZoe Signal Tracker",
-    "slug": "bz-signal-tracker",
+    "slug": "signal",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
