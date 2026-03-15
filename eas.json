@@ -7,13 +7,13 @@
     "preview": {
       "android": {
         "buildType": "apk",
-        "credentialsSource": "auto"
+        "credentialsSource": "remote"
       }
     },
     "production": {
       "android": {
         "buildType": "app-bundle",
-        "credentialsSource": "auto"
+        "credentialsSource": "remote"
       }
     }
   }
