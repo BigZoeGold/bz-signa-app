@@ -4,15 +4,8 @@
     "slug": "bz-signal-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "backgroundColor": "#0a0a0a"
-    },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#0a0a0a"
-      },
       "package": "com.bigzoe.signaltracker",
       "permissions": [
         "RECEIVE_BOOT_COMPLETED",
@@ -20,20 +13,10 @@
         "INTERNET"
       ]
     },
-    "plugins": [
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/icon.png",
-          "color": "#c8972a",
-          "sounds": []
-        }
-      ],
-      "expo-background-fetch",
-      "expo-task-manager"
-    ],
     "extra": {
-      "eas": {}
+      "eas": {
+        "projectId": "c8cf04d9-380d-4178-a5b7-b5d683985300"
+      }
     }
   }
 }
